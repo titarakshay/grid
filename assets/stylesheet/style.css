@@ -1,0 +1,539 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1.5;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 20px;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.conatiner {
+  width: 1260px;
+  margin: 0 auto;
+}
+
+.container2 {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5rem 0;
+}
+
+.links li {
+  margin-left: 0.7rem;
+  text-transform: uppercase;
+}
+
+.links {
+  position: absolute;
+  top: 5%;
+  left: 55%;
+}
+
+.head-div {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 5%;
+  left: 10%;
+}
+
+.yellow {
+  color: #ECAF4E;
+}
+
+.flex2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ham {
+  display: none;
+}
+
+.checkbox {
+  display: none;
+}
+
+.main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.img-div {
+  grid-column: span 2;
+  font-size: 0;
+}
+
+.hero {
+  font-size: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  margin: none;
+  padding: none;
+}
+
+.hero-top {
+  font-size: 2rem;
+}
+
+.hero-para {
+  margin: 1rem 0;
+  font-size: 1;
+}
+
+.hero-heading {
+  text-align: left;
+  padding: 7rem 2.5rem 0;
+  background-color: #F5E3D7;
+  grid-column: span 2;
+}
+
+.button {
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-radius: 20px;
+  padding: 12px 24px;
+  border: 1px solid black;
+  margin-top: 1rem;
+  font-weight: 400;
+  background-color: transparent;
+}
+
+.second {
+  grid-column: span 2;
+}
+
+.second-section {
+  padding: 3rem 2rem;
+}
+
+.para-heading {
+  font-size: 2rem;
+}
+
+.yellow-text {
+  font-size: .8rem;
+  margin: 1rem 0;
+  color: #ECAF4E;
+}
+
+.para-text {
+  font-size: .8rem;
+  margin: 1rem 0;
+}
+
+.para-text2 {
+  font-size: .8rem;
+}
+
+.skills {
+  background-color: #ECAF4E;
+  padding: 1rem;
+}
+
+.skills .para-heading {
+  color: white;
+}
+
+.img-skill {
+  font-size: 0;
+}
+
+.about {
+  font-size: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.para-skills {
+  font-size: 0.8rem;
+  color: white;
+  margin-top: 0.5rem;
+}
+
+#file {
+  height: 0.2rem;
+  color: black;
+  width: 20rem;
+  background-color: white;
+  display: block;
+}
+
+progress {
+  text-decoration: none;
+  color: black;
+  margin: 1rem 0;
+  -ms-progress-appearance: bar;
+}
+
+progress ::-webkit-progress-bar {
+  color: black;
+}
+
+.computer {
+  background-color: #ECAF4E;
+  padding: 1.5rem;
+}
+
+.computer-heading {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.computer-text {
+  color: white;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+.fas, .fab {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.computer2 {
+  background-color: #FC683E;
+}
+
+.computer3 {
+  background-color: black;
+}
+
+.computer4 {
+  background-color: white;
+}
+
+.computer4 .computer-heading, .computer4 .computer-text {
+  color: gray;
+}
+
+.computer4 .fab {
+  color: black;
+}
+
+.forth-img {
+  grid-column: span 2;
+}
+
+.experience, .education, .hello, .contact {
+  grid-column: span 2;
+  text-align: left;
+  padding: 2.5rem;
+  background-color: #FC683E;
+  color: white;
+}
+
+.experience p, .education p, .hello p, .contact p {
+  font-size: .9rem;
+  margin-top: 1rem;
+}
+
+.exep {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 2.5rem;
+}
+
+.exep .exept-text, .exep .fas {
+  font-size: 2.5rem;
+  margin-right: 1rem;
+}
+
+.exep .fas {
+  font-size: 2rem;
+}
+
+.exep strong {
+  color: black;
+}
+
+.exep p {
+  font-size: 0.9rem;
+}
+
+.education {
+  background-color: #ECAF4E;
+}
+
+.education-img {
+  grid-column: span 2;
+}
+
+.hello {
+  background-color: #FC683E;
+}
+
+.name, textarea {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #ECAF4E;
+  font-size: 1rem;
+  margin: 1.5rem 0;
+}
+
+.button2 {
+  padding: 0.8rem 4rem;
+  background-color: white;
+  border: none;
+}
+
+.contact {
+  background-color: black;
+  grid-column: span 1;
+  color: white;
+}
+
+.contact .office {
+  font-size: 1.5rem;
+}
+
+.contact p {
+  color: gray;
+  margin-top: 1rem;
+}
+
+.contact ul {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.contact ul .fas {
+  color: gray;
+  font-size: 0.9rem;
+  margin-right: 0.8rem;
+}
+
+.contact ul li {
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+
+.color-map {
+  background-color: #FC683E;
+  grid-column: span 4;
+  padding: 2rem 0;
+}
+
+iframe {
+  padding: 1rem 5rem;
+}
+
+.footer {
+  padding: 5rem 0;
+  font-size: 1rem;
+}
+
+.footer .fab {
+  color: gray;
+  font-size: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+@media all and (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+  h1 {
+    z-index: 999;
+    position: absolute;
+    text-align: left;
+    left: 5%;
+    font-size: 3rem;
+  }
+  .ham {
+    font-size: 32px;
+    color: black;
+    display: inline-block;
+    position: absolute;
+    z-index: 999;
+    left: 85%;
+    top: 3%;
+  }
+  #toggle:checked ~ .links {
+    display: inline-block;
+  }
+  .links {
+    display: none;
+    position: absolute;
+    background-color: crimson;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top: 120px;
+    font-size: 3rem;
+  }
+  .links li {
+    margin: 32px 0;
+    color: white;
+  }
+  .main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .main .img-div, .main .hero-heading, .main .second, .main .forth-img, .main .experience, .main .education, .main .hello, .main .contact, .main .education-img, .main .color-map {
+    grid-column: span 1;
+  }
+  .links {
+    display: none;
+  }
+  .button {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+  }
+  iframe {
+    padding: 1rem;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+  .ham {
+    font-size: 32px;
+    color: black;
+    display: inline-block;
+    position: absolute;
+    z-index: 999;
+    left: 85%;
+    top: 3%;
+  }
+  #toggle:checked ~ .links {
+    display: inline-block;
+  }
+  .links {
+    display: none;
+    position: absolute;
+    background-color: black;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top: 120px;
+  }
+  .links li {
+    margin: 32px 0;
+    color: white;
+  }
+  .main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .main .img-div, .main .hero-heading, .main .second, .main .forth-img, .main .experience, .main .education, .main .hello, .main .contact, .main .education-img, .main .color-map {
+    grid-column: span 1;
+  }
+  .links {
+    display: none;
+  }
+  .button {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+  }
+  iframe {
+    padding: 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

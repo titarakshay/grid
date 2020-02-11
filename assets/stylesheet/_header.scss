@@ -1,0 +1,46 @@
+.container2{
+    max-width: 1260px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+.links li{
+    margin-left: 0.7rem;
+    text-transform: uppercase;
+}
+.links{
+    position: absolute;
+    top: 5%;
+    left: 55%;
+}
+
+.head-div{
+    position: absolute;
+    width: 100%;
+    top:0;
+    left:0;
+}
+h1{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    
+}
+.yellow{
+    color:#ECAF4E;
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+}
+.ham {
+    display: none;
+}
+.checkbox{
+    display: none;
+}

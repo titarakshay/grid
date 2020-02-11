@@ -1,0 +1,220 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.img-div{
+    grid-column:span 2;
+    // grid-row: span 1;
+    font-size: 0;
+}
+.hero{
+    font-size: 0;
+    object-fit: cover;
+    width: 100%;
+    margin: none;
+    padding: none;
+}
+.hero-top{
+    font-size: 2rem;
+}
+.hero-para{
+    margin: 1rem 0;
+    font-size: 1;
+}
+.hero-heading{
+    text-align: left;
+    padding: 7rem 2.5rem 0;
+    background-color: #F5E3D7;
+    grid-column: span 2;
+}  
+.button{
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-radius: 20px;
+    padding: 12px 24px;
+    border: 1px solid black;
+    margin-top: 1rem;
+    font-weight: 400;
+    background-color: transparent;
+}
+.second{
+    grid-column: span 2;
+}
+.second-section{
+    // grid-column:span 2;
+    padding: 3rem 2rem;
+}
+.para-heading{
+    font-size: 2rem;
+}
+.yellow-text{
+    font-size: .8rem;
+    margin: 1rem 0;
+    color: #ECAF4E;
+}
+.para-text{
+    font-size: .8rem;
+    margin: 1rem 0;
+}
+.para-text2{
+    font-size: .8rem;
+}
+.skills{
+    background-color:#ECAF4E;
+    padding: 1rem;
+    .para-heading{
+        color: white;
+    }
+}
+.img-skill{
+    font-size: 0;
+}
+.about{
+    font-size:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+.para-skills{
+    font-size: 0.8rem;
+    color: white;
+    margin-top: 0.5rem;
+}
+#file{
+    height: 0.2rem;
+    color: black;
+    width: 20rem;
+    background-color: white;
+    display: block;
+}
+progress{
+    text-decoration: none;
+    color: black;
+    margin: 1rem 0;
+    -ms-progress-appearance: bar;
+    ::-webkit-progress-bar{
+        color: black;
+    }
+}
+.computer{
+    background-color: #ECAF4E;
+    padding: 1.5rem;
+}
+.computer-heading{
+    font-size: 1.5rem;
+    color: white;
+}
+.computer-text{
+    color: white;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+.fas, .fab{
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+.computer2{
+    background-color:#FC683E;   
+}
+.computer3{
+    background-color: black;
+}
+.computer4{
+    background-color: white;
+    .computer-heading, .computer-text{
+        color: gray;
+    }
+    .fab{
+        color:black;
+    }
+}
+.forth-img{
+    grid-column: span 2;
+}
+.experience, .education , .hello ,.contact{
+    grid-column: span 2;
+    text-align: left;
+    padding: 2.5rem ;
+    background-color: #FC683E;
+    color: white;
+    p{
+        font-size: .9rem;
+        margin-top: 1rem;
+    }
+}
+.exep{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2.5rem;
+    .exept-text, .fas{
+        font-size: 2.5rem;
+        margin-right: 1rem;
+    }
+    .fas{
+        font-size: 2rem;
+    }
+    strong{
+        color: black;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+}
+.education{
+    background-color: #ECAF4E;
+}
+.education-img{
+    grid-column: span 2;
+}
+.hello{
+    background-color: #FC683E;
+}
+.name, textarea{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #ECAF4E;
+    font-size: 1rem;
+    margin: 1.5rem 0;
+}
+.button2{
+    padding: 0.8rem 4rem;
+    background-color: white;
+    border: none;
+}
+.contact{
+    background-color: black;
+    grid-column: span 1;
+    color: white;
+    .office{
+        font-size: 1.5rem;
+    }
+    p{
+        color: gray;
+        margin-top: 1rem;
+    }
+    ul{
+        margin-top: 1.5rem;
+        font-size: 1.5rem;
+        .fas{
+            color: gray;
+            font-size: 0.9rem;
+            margin-right: 0.8rem;
+        }
+        li{
+            margin: 1rem 0;
+            font-size: 0.9rem;
+        }
+    }
+}
+.color-map{
+    background-color: #FC683E;
+    grid-column: span 4;
+    padding: 2rem 0;
+}
+iframe{
+    padding: 1rem 5rem;
+}
